@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --text-cta: 356deg 100% 66%;
+    --bg-cta-hover: 355deg 100% 74%;
+    --text-white: 0deg 0% 100%;
+    --text-headings: 208deg 49% 24%;
+    --text-body: 207deg 13% 34%;
+    --text-footer: 240deg 2% 79%;
+    --bg-footer: 240deg 10% 16%;
+    --bg-intro-1: 13deg 100% 72%;
+    --bg-intro-2: 353deg 100% 62%;
+    --bg-body-1: 237deg 17% 21%;
+    --bg-body-2: 237deg 23% 32%;
+  }
+  body {
+    font-size: 16px;
+  }
+}
+@layer components {
+  .header {
+    @apply w-full h-[600px] rounded-bl-[100px] pt-14 px-[22px] md:pt-0 md:px-0 text-textWhite text-center bg-intro-pattern md:bg-intro-pattern-md bg-[bottom_65%_left_35%] md:bg-[center_left_25%] bg-no-repeat font-overpass;
+  }
+  .heading-main {
+    @apply mt-28 md:mt-40 text-[2.18rem] leading-[3rem] md:text-[3.66rem] md:leading-[4rem] font-semibold;
+  }
+  .header-cta-btn {
+    @apply rounded-full w-36 h-12 font-ubuntu font-bold hover:cursor-pointer;
+  }
+  .header-btn-1 {
+    @apply bg-textWhite text-bgCtaHover hover:bg-bgCtaHover hover:text-textWhite;
+  }
+  .header-btn-2 {
+    @apply bg-transparent text-textWhite hover:bg-textWhite hover:text-textCta border border-textWhite;
+  }
+  .nav-icon {
+    @apply w-8 h-8 bg-[url(../images/icon-hamburger.svg)] bg-no-repeat bg-contain bg-center hover:cursor-pointer md:hidden;
+  }
+  .nav-btn {
+    @apply block mx-auto md:mt-0 font-ubuntu hover:cursor-pointer font-bold;
+  }
+  .article-h3 {
+    @apply text-[1.73rem] leading-8 font-semibold text-textHeadings;
+  }
+  .article-p {
+    @apply text-base leading-7 font-semibold text-textBody mt-4 md:mt-[27px];
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
