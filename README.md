@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution page on Frontend Mentor](https://www.frontendmentor.io/)
+- Solution URL: [Solution page on Frontend Mentor](https://www.frontendmentor.io/solutions/blogr-landing-page-Kic2OJ-jtb)
 - Live Site URL: [Github Pages](https://rachmatilham.github.io/blogr-landing-page-main/)
 
 ## My process

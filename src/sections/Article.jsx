@@ -13,9 +13,9 @@ export default function Article() {
               : "./images/illustration-editor-mobile.svg"
           }
           alt="Editor Illustration"
-          className="mx-auto md:min-w-[925px] md:min-h-[882px] md:absolute md:-top-[197px] md:left-[59.7%]"
+          className="mx-auto md:min-w-[925px] md:min-h-[882px] md:absolute md:-top-[197px] md:left-[54.8%]"
         />
-        <div className="ml-8 mr-7 mt-2 md:m-0 md:ml-[16.3%] md:w-[36.5%]">
+        <div className="ml-8 mr-7 mt-2 md:m-0 md:ml-[11.4%] md:w-[36.5%]">
           <h3 className="article-h3 mt-10">Introducing an extensible editor</h3>
           <p className="article-p">
             Blogr features an exceedingly intuitive interface which lets you
@@ -42,9 +42,9 @@ export default function Article() {
         <img
           src="./images/illustration-phones.svg"
           alt="Phone Illustration"
-          className="max-h-[432px] md:max-h-a md:max-w-[50%] absolute -top-[180px] left-1/2 -translate-x-1/2 mx-auto md:-top-[66px] md:left-[8.75%] md:-translate-x-[8.75%]"
+          className="max-h-[432px] md:max-h-max md:max-w-[50%] absolute -top-[180px] left-1/2 -translate-x-1/2 mx-auto md:-top-[66px] md:left-[8.75%] md:-translate-x-[8.75%]"
         />
-        <div className="mx-8 md:mx-0 md:w-[36%] md:relative md:right-[12%]">
+        <div className="mx-8 md:mx-0 md:w-[36%] md:relative md:right-[13%]">
           <h2 className="text-4xl leading-[3.2rem] font-semibold">
             State of the Art Infrastructure
           </h2>
@@ -65,10 +65,10 @@ export default function Article() {
               : "./images/illustration-laptop-mobile.svg"
           }
           alt="Laptop Illustration"
-          className="mx-auto md:min-w-[974px] md:min-h-[786px] md:absolute md:top-14 md:right-[46.3%]"
+          className="mx-auto md:min-w-[974px] md:min-h-[786px] md:absolute md:top-14 md:right-[52.7%]"
         />
 
-        <div className="ml-8 mr-7 mt-2 md:mx-0 md:mt-[17.5%] md:w-[47%] md:relative md:left-[4%]">
+        <div className="ml-8 mr-7 mt-2 md:mx-0 md:mt-[17.5%] md:w-[47%] md:relative md:-left-[2%]">
           <h3 className="article-h3 mt-12">Free, open, simple</h3>
           <p className="article-p text-[1.01rem]">
             Blogr is a free and open source application backed by a large
