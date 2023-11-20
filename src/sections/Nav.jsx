@@ -43,12 +43,12 @@ export default function Nav() {
           ))}
         </div>
         <div className="button-flex md:flex md:items-center">
-          <button className="nav-btn mt-6 md:mr-8 text-textHeadings md:text-textWhite">
+          <button className="nav-btn mt-6 md:mt-0 md:mr-8 text-textHeadings md:text-textWhite">
             Login
           </button>
           <button
             className={
-              "nav-btn mt-[18px] rounded-full w-36 h-12 " +
+              "nav-btn mt-[18px] md:mt-0 rounded-full w-36 h-12 " +
               (window.innerWidth > 768
                 ? "bg-textWhite text-bgCtaHover hover:bg-bgCtaHover hover:text-textWhite"
                 : "text-textWhite bg-gradient-to-r from-bgIntro1 to-bgIntro2 hover:bg-none hover:bg-textWhite hover:text-bgCtaHover")
