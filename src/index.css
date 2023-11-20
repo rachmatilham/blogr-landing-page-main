@@ -22,7 +22,7 @@
 }
 @layer components {
   .header {
-    @apply w-full h-[600px] rounded-bl-[100px] pt-14 px-[22px] md:pt-0 md:px-0 text-textWhite text-center bg-intro-pattern md:bg-intro-pattern-md bg-[bottom_65%_left_35%] md:bg-[center_left_25%] bg-no-repeat font-overpass;
+    @apply w-full h-[600px] rounded-bl-[100px] pt-14 px-[22px] md:pt-0 md:px-0 text-textWhite/90 text-center bg-intro-pattern md:bg-intro-pattern-md bg-[bottom_65%_left_35%] md:bg-[center_left_25%] bg-no-repeat font-overpass;
   }
   .heading-main {
     @apply mt-28 md:mt-40 text-[2.18rem] leading-[3rem] md:text-[3.66rem] md:leading-[4rem] font-semibold;
@@ -46,14 +46,13 @@
     @apply text-[1.73rem] leading-8 font-semibold text-textHeadings;
   }
   .article-p {
-    @apply text-base leading-7 font-semibold text-textBody mt-4 md:mt-[27px];
+    @apply text-base leading-7 font-semibold text-textBody/70 mt-4 md:mt-[27px];
   }
 
   .attribution {
-    font-size: 11px;
-    text-align: center;
+    @apply text-[11px] text-center;
   }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
+  .attribution-link {
+    @apply text-[#3e52a3] underline;
   }
 }

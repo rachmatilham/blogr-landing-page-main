@@ -24,7 +24,7 @@ export default function NavComp({ id, title, lists, toggle, open }) {
       </div>
       <ul
         className={
-          "bg-textFooter/40 py-3 rounded-md md:absolute md:bg-textWhite md:pt-7 md:pb-6 md:pl-6 md:pr-[62px] " +
+          "bg-textFooter/40 py-3 rounded-md md:absolute md:top-12 md:bg-textWhite md:pt-7 md:pb-6 md:pl-6 md:pr-[62px] md:shadow-[0_0_200px_rgba(0,0,0,0.7)] " +
           (open ? "block" : "hidden") +
           (id == 2 ? " mb-6" : "")
         }
@@ -33,7 +33,7 @@ export default function NavComp({ id, title, lists, toggle, open }) {
           <li key={lists.indexOf(list)} className="py-2 md:py-1">
             <a
               href="#"
-              className="font-ubuntu font-medium text-textBody md:text-textFooter hover:text-bgBody2"
+              className="font-ubuntu font-medium text-textBody md:text-bgBody2/70 hover:text-bgBody2"
             >
               {list}
             </a>

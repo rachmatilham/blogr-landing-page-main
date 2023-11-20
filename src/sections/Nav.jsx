@@ -51,7 +51,7 @@ export default function Nav() {
               "nav-btn mt-[18px] md:mt-0 rounded-full w-36 h-12 " +
               (window.innerWidth > 768
                 ? "bg-textWhite text-bgCtaHover hover:bg-bgCtaHover hover:text-textWhite"
-                : "text-textWhite bg-gradient-to-r from-bgIntro1 to-bgIntro2 hover:bg-none hover:bg-textWhite hover:text-bgCtaHover")
+                : "text-textWhite bg-gradient-to-r from-bgIntro1 to-bgIntro2")
             }
           >
             Sign Up

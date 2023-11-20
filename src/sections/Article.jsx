@@ -48,7 +48,7 @@ export default function Article() {
           <h2 className="text-4xl leading-[3.2rem] font-semibold">
             State of the Art Infrastructure
           </h2>
-          <p className="text-base leading-7 font-semibold mt-4">
+          <p className="text-base leading-7 font-light mt-4 text-textWhite/70">
             With reliability and speed in mind, worldwide data centers provide
             the backbone for ultra-fast connectivity. This ensures your site
             will load instantly, no matter where your readers are, keeping your
