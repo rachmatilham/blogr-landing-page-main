@@ -15,8 +15,8 @@ export default function NavComp({ id, title, lists, toggle, open }) {
         <img
           src={
             window.innerWidth > 768
-              ? "/images/icon-arrow-light.svg"
-              : "/images/icon-arrow-dark.svg"
+              ? "./images/icon-arrow-light.svg"
+              : "./images/icon-arrow-dark.svg"
           }
           alt="Nav Arrow"
           className={"w-3 h-2 " + (open ? "rotate-180" : "")}

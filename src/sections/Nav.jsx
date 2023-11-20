@@ -12,7 +12,7 @@ export default function Nav() {
   return (
     <nav className="flex justify-between items-center relative">
       <img
-        src="/images/logo.svg"
+        src="./images/logo.svg"
         alt="Blogr Logo Images"
         className="w-[84px] h-8 md:w-[101px] md:h-[42px]"
       />

@@ -9,8 +9,8 @@ export default function Article() {
         <img
           src={
             window.innerWidth > 768
-              ? "/images/illustration-editor-desktop.svg"
-              : "/images/illustration-editor-mobile.svg"
+              ? "./images/illustration-editor-desktop.svg"
+              : "./images/illustration-editor-mobile.svg"
           }
           alt="Editor Illustration"
           className="mx-auto md:min-w-[925px] md:min-h-[882px] md:absolute md:-top-[197px] md:left-[59.7%]"
@@ -40,9 +40,9 @@ export default function Article() {
 
       <div className="w-full h-[625px] md:h-[400px] bg-body-pattern md:bg-body-pattern-md bg-[bottom_-40%_center] md:bg-[bottom_20%_left_-50%] bg-no-repeat rounded-tr-[100px] rounded-bl-[100px] text-textWhite md:flex md:flex-row-reverse relative mt-[280px] md:mt-[253px] pt-56 md:pt-[7.8%]">
         <img
-          src="/images/illustration-phones.svg"
+          src="./images/illustration-phones.svg"
           alt="Phone Illustration"
-          className="max-h-[432px] md:max-h-max md:max-w-[50%] absolute -top-[180px] left-1/2 -translate-x-1/2 mx-auto md:-top-[66px] md:left-[8.75%] md:-translate-x-[8.75%]"
+          className="max-h-[432px] md:max-h-a md:max-w-[50%] absolute -top-[180px] left-1/2 -translate-x-1/2 mx-auto md:-top-[66px] md:left-[8.75%] md:-translate-x-[8.75%]"
         />
         <div className="mx-8 md:mx-0 md:w-[36%] md:relative md:right-[12%]">
           <h2 className="text-4xl leading-[3.2rem] font-semibold">
@@ -61,8 +61,8 @@ export default function Article() {
         <img
           src={
             window.innerWidth > 768
-              ? "/images/illustration-laptop-desktop.svg"
-              : "/images/illustration-laptop-mobile.svg"
+              ? "./images/illustration-laptop-desktop.svg"
+              : "./images/illustration-laptop-mobile.svg"
           }
           alt="Laptop Illustration"
           className="mx-auto md:min-w-[974px] md:min-h-[786px] md:absolute md:top-14 md:right-[46.3%]"
