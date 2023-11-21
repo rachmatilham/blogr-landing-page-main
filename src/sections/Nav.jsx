@@ -26,11 +26,11 @@ export default function Nav() {
       ></div>
       <div
         className={
-          "nav-link pb-8 md:pb-0 absolute md:relative bg-textWhite md:bg-transparent top-[124px] md:top-0 w-full rounded-md md:rounded-none font-semibold md:flex md:justify-between shadow-[0_0_500px_rgba(0,0,0,0.4)] md:shadow-none " +
+          "pb-8 md:pb-0 absolute md:relative bg-textWhite md:bg-transparent top-[124px] md:top-0 w-full rounded-md md:rounded-none font-semibold md:flex md:justify-between shadow-[0_0_500px_rgba(0,0,0,0.4)] md:shadow-none " +
           (nav ? "" : "hidden")
         }
       >
-        <div className="nav-container mx-[22px] md:ml-8 md:mr-0 border-b border-textFooter md:border-none md:flex md:items-center">
+        <div className="mx-[22px] md:ml-8 md:mr-0 border-b border-textFooter md:border-none md:flex md:items-center">
           {linkList.map(({ id, title, lists }) => (
             <NavComp
               key={title}
@@ -42,7 +42,7 @@ export default function Nav() {
             />
           ))}
         </div>
-        <div className="button-flex md:flex md:items-center">
+        <div className="md:flex md:items-center">
           <button className="nav-btn mt-6 md:mt-0 md:mr-8 text-textHeadings md:text-textWhite">
             Login
           </button>

@@ -9,7 +9,7 @@ export default function Header() {
         <p className="mt-5 mx-2 text-lg md:mt-9 md:text-xl">
           Grow your audience and build your online brand
         </p>
-        <div className="cta-flex mt-12 flex justify-center gap-4">
+        <div className="mt-12 flex justify-center gap-4">
           <button className="header-cta-btn header-btn-1">
             Start for Free
           </button>

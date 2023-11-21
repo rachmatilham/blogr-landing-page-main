@@ -4,7 +4,7 @@ import FooterComp from "../components/FooterComp";
 export default function Footer() {
   return (
     <footer className="bg-bgFooter text-white rounded-tr-[100px] mt-24 md:mt-0 pt-[74px] pb-[72px] md:pb-10">
-      <div className="footer-container md:flex md:w-[77.1%] md:mx-auto">
+      <div className="md:flex md:w-[77.1%] md:mx-auto">
         <img
           src="./images/logo.svg"
           alt="Blogr Logo Images"
